@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF8F5"/>
+      <stop offset="100%" stop-color="#EDE7DC"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9C7A4A" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#9C7A4A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="600" cy="315" r="450" fill="url(#glow)"/>
+
+  <!-- Ornate Borders -->
+  <rect x="30" y="30" width="1140" height="570" rx="16" fill="none" stroke="#9C7A4A" stroke-width="2" stroke-opacity="0.4"/>
+  <rect x="42" y="42" width="1116" height="546" rx="12" fill="none" stroke="#2D4030" stroke-width="1" stroke-opacity="0.25"/>
+
+  <!-- Bismillah Arabic Calligraphy representation -->
+  <text x="600" y="140" font-family="'Amiri', 'Traditional Arabic', serif" font-size="36" fill="#2D4030" text-anchor="middle" font-weight="bold">
+    بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ
+  </text>
+
+  <!-- Tagline -->
+  <text x="600" y="210" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" fill="#9C7A4A" text-anchor="middle" letter-spacing="6" font-weight="600">
+    UNDANGAN PERINGATAN HAUL
+  </text>
+
+  <!-- Deceased Name -->
+  <text x="600" y="300" font-family="'Playfair Display', serif" font-size="52" fill="#2D4030" text-anchor="middle" font-weight="bold">
+    H. Muhammad Hasan
+  </text>
+
+  <!-- Divider -->
+  <line x1="450" y1="340" x2="750" y2="340" stroke="#9C7A4A" stroke-width="1.5" stroke-opacity="0.6"/>
+  <polygon points="600,334 606,340 600,346 594,340" fill="#9C7A4A"/>
+
+  <!-- Date & Location -->
+  <text x="600" y="410" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" fill="#3D4D41" text-anchor="middle" font-weight="500">
+    Sabtu, 12 September 2026 • 07.00 WIB – selesai
+  </text>
+  <text x="600" y="455" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" fill="#5F6B64" text-anchor="middle">
+    Bertempat di Kediaman Almarhum (Jl. Abdul Wahab)
+  </text>
+
+  <text x="600" y="530" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#8B968F" text-anchor="middle" letter-spacing="1">
+    Keluarga Besar Almarhum H. Muhammad Hasan
+  </text>
+</svg>

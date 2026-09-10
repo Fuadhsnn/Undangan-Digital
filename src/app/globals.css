@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: var(--font-playfair), "Playfair Display", Georgia, serif;
+  --font-sans: var(--font-jakarta), "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-arabic: var(--font-amiri), "Amiri", "Traditional Arabic", serif;
+
+  --color-primary: #2D4030;
+  --color-primary-dark: #1E2B20;
+  --color-primary-light: #3E5642;
+  
+  --color-secondary: #536B58;
+  --color-secondary-light: #708A75;
+  
+  --color-accent: #9C7A4A;
+  --color-accent-hover: #87673A;
+  --color-accent-light: #C9AB7E;
+  --color-accent-soft: #F6F1E8;
+  
+  --color-background: #FAF8F5;
+  --color-surface: #FFFFFF;
+  --color-surface-translucent: rgba(255, 255, 255, 0.85);
+  
+  --color-foreground: #1E2420;
+  --color-muted-surface: #F3EFE8;
+  --color-muted-text: #58635B;
+  --color-subtle-text: #7B877F;
+  
+  --color-border: #E2DCD0;
+  --color-border-subtle: #EFEBE3;
+  
+  --color-success: #2D6A4F;
+  --color-error: #9E2A2B;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #FAF8F5;
+  color: #1E2420;
+}
+
+body {
+  font-family: var(--font-jakarta), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #FAF8F5;
+  color: #1E2420;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Custom Selection Highlight */
+::selection {
+  background-color: #2D4030;
+  color: #FAF8F5;
+}
+
+/* Custom Slim Warm Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #D5CDC0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9C7A4A;
+}
+
+/* Accessible visible focus styles for all interactive elements */
+:focus-visible {
+  outline: 2px solid #9C7A4A;
+  outline-offset: 2px;
+}
+
+/* Arabic typography class */
+.font-arabic {
+  font-family: var(--font-amiri), "Traditional Arabic", serif;
+  direction: rtl;
+}
+
+/* Decorative subtle paper texture overlay */
+.bg-parchment-glow {
+  background-image: radial-gradient(circle at 50% 10%, rgba(156, 122, 74, 0.04) 0%, transparent 60%);
+}
