@@ -50,7 +50,7 @@ export function Guestbook() {
           <SectionHeader
             badge="Untaian Doa & Harapan"
             title="Titip Doa"
-            subtitle="Sampaikan doa tulus dan untaian kenangan baik bagi Almarhum H. Muhammad Hasan"
+            subtitle="Sampaikan doa tulus dan untaian kenangan baik bagi Almarhum H. Muhammad Hasan bin H. Idi"
           />
         </ScrollReveal>
 

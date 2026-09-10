@@ -29,37 +29,21 @@ export function Deceased() {
         </ScrollReveal>
 
         <div className="flex flex-col items-center text-center">
-          {/* Portrait Frame with double refined border */}
+          {/* Portrait Circular Frame with elegant ring border */}
           <ScrollReveal direction="up" distance={30} duration={0.7} delay={0.1}>
-            <div className="relative group p-2 rounded-2xl bg-white border border-[#9C7A4A]/30 shadow-[0_8px_30px_rgba(45,64,48,0.06)] mb-6">
-            <div className="relative w-56 h-72 sm:w-64 sm:h-80 rounded-xl overflow-hidden bg-[#EDE6D8]">
-              <Image
-                src={photoSrc}
-                alt={`Foto kenangan Almarhum ${event.deceasedName}`}
-                fill
-                className="object-cover transition-transform duration-700 group-hover:scale-105"
-                onError={() => setImageError(true)}
-                sizes="(max-width: 640px) 224px, 256px"
-                priority
-              />
-            </div>
-            {/* Delicate corner ornaments */}
-            <div
-              className="absolute top-1 left-1 w-3 h-3 border-t-2 border-l-2 border-[#9C7A4A] rounded-tl-sm pointer-events-none"
-              aria-hidden="true"
-            />
-            <div
-              className="absolute top-1 right-1 w-3 h-3 border-t-2 border-r-2 border-[#9C7A4A] rounded-tr-sm pointer-events-none"
-              aria-hidden="true"
-            />
-            <div
-              className="absolute bottom-1 left-1 w-3 h-3 border-b-2 border-l-2 border-[#9C7A4A] rounded-bl-sm pointer-events-none"
-              aria-hidden="true"
-            />
-            <div
-              className="absolute bottom-1 right-1 w-3 h-3 border-b-2 border-r-2 border-[#9C7A4A] rounded-br-sm pointer-events-none"
-              aria-hidden="true"
-            />
+            <div className="relative group p-[3px] rounded-full bg-gradient-to-br from-[#9C7A4A] via-[#C9AB7E] to-[#9C7A4A] shadow-[0_8px_30px_rgba(45,64,48,0.08)] mb-6">
+              <div className="absolute inset-0 rounded-full bg-[#9C7A4A]/10 blur-sm -z-10" aria-hidden="true" />
+              <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden bg-[#EDE6D8] ring-4 ring-white">
+                <Image
+                  src={photoSrc}
+                  alt={`Foto kenangan Almarhum ${event.deceasedName}`}
+                  fill
+                  className="object-cover object-top scale-[1.25] transition-transform duration-700 group-hover:scale-[1.35]"
+                  onError={() => setImageError(true)}
+                  sizes="(max-width: 640px) 240px, 288px"
+                  priority
+                />
+              </div>
             </div>
           </ScrollReveal>
 

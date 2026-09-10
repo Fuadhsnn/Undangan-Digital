@@ -48,7 +48,7 @@ export function Location() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Peta Lokasi Haul Almarhum H. Muhammad Hasan"
+              title="Peta Lokasi Haul Almarhum H. Muhammad Hasan bin H. Idi"
               className="w-full h-full rounded-xl"
             />
           </div>

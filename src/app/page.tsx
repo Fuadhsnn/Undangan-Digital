@@ -5,7 +5,6 @@ import { EventDetails } from "@/components/invitation/EventDetails";
 import { Countdown } from "@/components/invitation/Countdown";
 import { Rundown } from "@/components/invitation/Rundown";
 import { PrayerVerse } from "@/components/invitation/PrayerVerse";
-import { Gallery } from "@/components/invitation/Gallery";
 import { Location } from "@/components/invitation/Location";
 import { Guestbook } from "@/components/invitation/Guestbook";
 import { ShareWhatsApp } from "@/components/invitation/ShareWhatsApp";
@@ -32,19 +31,16 @@ export default function Home() {
       {/* 6. Doa & Ayat Suci */}
       <PrayerVerse />
 
-      {/* 7. Galeri Kenangan */}
-      <Gallery />
-
-      {/* 8. Lokasi Acara */}
+      {/* 7. Lokasi Acara */}
       <Location />
 
-      {/* 9. Titip Doa / Guestbook */}
+      {/* 8. Titip Doa / Guestbook */}
       <Guestbook />
 
-      {/* 11. WhatsApp Share */}
+      {/* 9. WhatsApp Share */}
       <ShareWhatsApp />
 
-      {/* 12. Footer */}
+      {/* 10. Footer */}
       <Footer />
     </InvitationWrapper>
   );
