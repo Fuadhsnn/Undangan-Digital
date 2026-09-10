@@ -64,7 +64,7 @@ export function Rundown() {
 
         <ScrollReveal direction="none" duration={0.5} delay={0.2}>
           <p className="text-center text-xs text-[#58635B] mt-8 italic">
-            * Rangkaian acara dimulai tepat pukul 07.00 WIB dan berlangsung berkesinambungan hingga selesai.
+            * Rangkaian acara dimulai tepat pukul 08.00 WIB dan berlangsung berkesinambungan hingga selesai.
           </p>
         </ScrollReveal>
       </Container>
