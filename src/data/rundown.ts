@@ -16,7 +16,7 @@ export const rundownData: RundownItem[] = [
   {
     id: "yasin",
     order: 2,
-    title: "Pembacaan Surah Yasin",
+    title: "Pembacaan Surah Yasin dan Khataman Qur'an",
     description: "Bersama jamaah dan para asatidz",
   },
   {
@@ -32,20 +32,14 @@ export const rundownData: RundownItem[] = [
     description: "Pembacaan shalawat dan maulid Nabi Muhammad SAW bersama jamaah",
   },
   {
-    id: "tausiyah",
-    order: 5,
-    title: "Tausiyah / Mau'idhoh Hasanah",
-    description: "Penyampaian nasihat agama dan hikmah mengingat kematian",
-  },
-  {
     id: "ramah-tamah",
-    order: 6,
+    order: 5,
     title: "Ramah Tamah & Santap Siang",
     description: "Jamuan makan bersama keluarga dan seluruh tamu undangan",
   },
   {
     id: "penutup",
-    order: 7,
+    order: 6,
     title: "Penutup",
     description: "Doa kafaratul majlis dan mushafahah",
   },
