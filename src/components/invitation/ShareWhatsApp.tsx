@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { Share2, Copy, Check } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
+import { event } from "@/config/event";
 
 export function ShareWhatsApp() {
   const [currentUrl, setCurrentUrl] = useState("");
@@ -15,7 +16,8 @@ export function ShareWhatsApp() {
     }
   }, []);
 
-  const shareText = `Assalamu'alaikum. Dengan hormat kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri Haul Almarhum H. Muhammad Hasan pada Sabtu, 12 September 2026 pukul 07.00 WIB. Detail susunan acara dan lokasi dapat dilihat melalui tautan berikut:\n${currentUrl}`;
+  const haulLabel = event.haulNumber ? `Haul ke-${event.haulNumber}` : "Peringatan Haul";
+  const shareText = `${event.whatsappGreetingTemplate}${currentUrl}`;
 
   const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(
     shareText

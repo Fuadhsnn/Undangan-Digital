@@ -19,7 +19,7 @@ export interface EventConfig {
 
 export const event: EventConfig = {
   deceasedName: "H. Muhammad Hasan bin H. Idi",
-  haulNumber: null, // [MENYUSUL] -> Rendered gracefully as "Haul Akbar" or "Haul" when null
+  haulNumber: 8, // Haul ke-8 (8 tahun peringatan)
   date: "2026-09-12",
   displayDate: "Sabtu, 12 September 2026",
   dayName: "Sabtu",
@@ -35,5 +35,5 @@ export const event: EventConfig = {
   deceasedPhoto: "/images/Foto Bapak.png",
   backgroundMusic: "/audio/background.mp3",
   whatsappGreetingTemplate:
-    "Assalamu'alaikum Warahmatullahi Wabarakatuh.\n\nDengan penuh takzim dan mengharap rahmat serta ridha Allah SWT, kami mengundang Bapak/Ibu/Saudara/i untuk berkenan hadir dalam peringatan:\n\n*Haul Almarhum H. Muhammad Hasan bin H. Idi*\n📅 Hari/Tanggal: Sabtu, 12 September 2026\n⏰ Waktu: 08.00 WIB – selesai\n📍 Lokasi: Rumah Almarhum (Jl Abdul Wahab RT03/09 No 21 Sawangan, Depok)\n\nDetail susunan acara dan lokasi dapat dilihat melalui tautan undangan digital berikut:\n",
+    "Assalamu'alaikum Warahmatullahi Wabarakatuh.\n\nDengan penuh takzim dan mengharap rahmat serta ridha Allah SWT, kami mengundang Bapak/Ibu/Saudara/i untuk berkenan hadir dalam peringatan:\n\n*Haul ke-8 Almarhum H. Muhammad Hasan bin H. Idi*\n📅 Hari/Tanggal: Sabtu, 12 September 2026\n⏰ Waktu: 08.00 WIB – selesai\n📍 Lokasi: Rumah Almarhum (Jl Abdul Wahab RT03/09 No 21 Sawangan, Depok)\n\nDetail susunan acara dan lokasi dapat dilihat melalui tautan undangan digital berikut:\n",
 };

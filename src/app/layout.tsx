@@ -34,12 +34,12 @@ export const metadata: Metadata = {
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL || "https://haul-muhammad-hasan.vercel.app"
   ),
-  title: "Haul H. Muhammad Hasan bin H. Idi | 12 September 2026",
+  title: "Haul ke-8 H. Muhammad Hasan bin H. Idi | 12 September 2026",
   description:
-    "Undangan Haul Almarhum H. Muhammad Hasan bin H. Idi – Sabtu, 12 September 2026. Dengan memohon rahmat dan ridha Allah SWT, kami mengundang Bapak/Ibu/Saudara/i untuk hadir.",
+    "Undangan Haul ke-8 Almarhum H. Muhammad Hasan bin H. Idi – Sabtu, 12 September 2026. Dengan memohon rahmat dan ridha Allah SWT, kami mengundang Bapak/Ibu/Saudara/i untuk hadir.",
   keywords: [
     "Undangan Haul",
-    "Haul H. Muhammad Hasan bin H. Idi",
+    "Haul ke-8 H. Muhammad Hasan bin H. Idi",
     "Haul Akbar",
     "Undangan Digital Islami",
     "Doa Bersama",
@@ -47,9 +47,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Keluarga Besar Almarhum H. Muhammad Hasan bin H. Idi" }],
   openGraph: {
-    title: "Haul H. Muhammad Hasan bin H. Idi | 12 September 2026",
+    title: "Haul ke-8 H. Muhammad Hasan bin H. Idi | 12 September 2026",
     description:
-      "Undangan Haul Almarhum H. Muhammad Hasan bin H. Idi – Sabtu, 12 September 2026 di Rumah Almarhum (Jl Abdul Wahab RT03/09 No 21 Sawangan, Depok).",
+      "Undangan Haul ke-8 Almarhum H. Muhammad Hasan bin H. Idi – Sabtu, 12 September 2026 di Rumah Almarhum (Jl Abdul Wahab RT03/09 No 21 Sawangan, Depok).",
     type: "website",
     locale: "id_ID",
     images: [
@@ -57,15 +57,15 @@ export const metadata: Metadata = {
         url: "/images/og-image.svg",
         width: 1200,
         height: 630,
-        alt: "Undangan Haul Almarhum H. Muhammad Hasan bin H. Idi",
+        alt: "Undangan Haul ke-8 Almarhum H. Muhammad Hasan bin H. Idi",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Haul H. Muhammad Hasan bin H. Idi | 12 September 2026",
+    title: "Haul ke-8 H. Muhammad Hasan bin H. Idi | 12 September 2026",
     description:
-      "Undangan Haul Almarhum H. Muhammad Hasan bin H. Idi – Sabtu, 12 September 2026.",
+      "Undangan Haul ke-8 Almarhum H. Muhammad Hasan bin H. Idi – Sabtu, 12 September 2026.",
     images: ["/images/og-image.svg"],
   },
   icons: {
